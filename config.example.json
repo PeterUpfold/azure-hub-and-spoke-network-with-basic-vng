@@ -1,0 +1,15 @@
+{
+    "VPNConfigurationName": "vnetHSTestConnectivity",
+    "VPNGatewayRange": "192.168.240.0/24",
+    "DNSClientNRPTRules": [
+        ".vault.azure.net",
+        ".table.core.windows.net",
+        ".vaultcore.azure.net",
+        ".servicebus.windows.net",
+        ".queue.core.windows.net",
+        ".file.core.windows.net",
+        ".blob.core.windows.net",
+        ".azurewebsites.net"
+    ],
+    "DNSServer": "172.16.0.4"
+}
